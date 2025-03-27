@@ -9,6 +9,7 @@ import GridCard from './Component/GridCard'
 import { motion } from "motion/react"
 
 import Footer from './Component/Footer'
+import MobileNavigation from './Component/MobileNav';
 function App() {
   const transition = {
     duration: 0.8,
@@ -63,8 +64,9 @@ function App() {
       <motion.div animate={{ y: -0 }}
         transition={transition} initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-      >  
-      <Footer />
+      >
+        <Footer />
+        <MobileNavigation />
       </motion.div>
     </div>
   )
