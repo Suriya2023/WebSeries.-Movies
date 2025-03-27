@@ -64,3 +64,9 @@ p {
     color: black;
     background: #7cb3c0;
 }
+@media screen and (min-width:769px){
+    #nock{
+        display: none;
+    }
+    
+}
