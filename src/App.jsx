@@ -26,7 +26,10 @@ function App() {
         whileInView={{ opacity: 1 }}
       >
         <Navbar />
+
       </motion.div>
+      
+
 
       <motion.div animate={{ y: -0 }}
         transition={transition} initial={{ opacity: 0 }}
@@ -66,8 +69,13 @@ function App() {
         whileInView={{ opacity: 1 }}
       >
         <Footer />
-        <MobileNavigation />
+
       </motion.div>
+      <MobileNavigation />
+
+
+    
+
     </div>
   )
 }
