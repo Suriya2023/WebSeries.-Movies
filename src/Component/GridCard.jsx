@@ -27,6 +27,7 @@ function GridCard() {
                 <div className="movie"><img src={D6} alt="Movie 6" /></div>
             </div>
             <button className="explore-button">Explore More</button>
+            <br id='nock' /><br id='nock' />
 
         </div>
     )
