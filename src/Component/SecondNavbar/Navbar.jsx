@@ -37,7 +37,7 @@ function Navbar() {
                 {/* <input  type="text" className="osearch-box" placeholder="Search IMDb                    <plantext> Hle</plantext> " /> */}
                 <div class="search-box osearch-box">
                     <input type="text" placeholder="Search..." />
-                    <i class="fa fa-search"></i>
+                    <i class="fa fa-search"></i> &nbsp; &nbsp; 
                 </div>
 
                 {/* <button className="omenu-btn" onClick={toggleMenu}>☰ Menu</button> */}

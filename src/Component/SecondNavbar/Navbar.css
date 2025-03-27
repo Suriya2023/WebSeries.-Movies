@@ -2,13 +2,14 @@
     background-color: black;
     color: white;
 }
- 
+
 
 .light-mode {
     background-color: white;
     color: black;
 }
-.logos1{
+
+.logos1 {
     border-radius: 10%;
 }
 
@@ -49,7 +50,7 @@
 .onavbar {
     gap: 5rem;
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     align-items: center;
     max-width: 1600px;
     background-color: #7cb3c0;
@@ -111,7 +112,9 @@
 .onav-right a {
     color: white;
     text-decoration: none;
+    width: 4rem;
 }
+
 
 .onotification {
     position: relative;
@@ -134,16 +137,17 @@
 }
 
 .nmb {
-    width:5rem;
+    width: 5rem;
     vertical-align: middle;
     display: flex;
 }
 
-#menu {z-index: 15;
+#menu {
+    z-index: 15;
     /* display: none; */
     position: absolute;
     background-color: #7cb3c0;
-    border: 2px  solid white;
+    border: 2px solid white;
     padding: 10px;
     width: 200px;
     /* top: 60px; */
@@ -155,9 +159,11 @@
 
     .logos1 {
         border-radius: 10%;
-        width: 5rem;}
+        width: 5rem;
+    }
+
     .menu {
-        
+
         /* display: none; */
         position: absolute;
         z-index: 50%;

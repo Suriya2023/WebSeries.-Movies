@@ -10,9 +10,10 @@ const MobileNav = () => {
     };
 
     return (
-        <div className="mobileNavbar">
-            <div  className="flex border-2 items-center justify-center bg-cyan-950">
-                <div id='MyHeight' className={`max-w-[1200px] w-full fixed bottom-0 z-[1000] flex justify-around items-center log shadow-[0px_-2px_10px_rgba(0,0,0,0.1)] transition-all duration-300 ${isMenuOpen ? 'h-[13rem]' : 'h-[6rem]'} rounded-t-[105px]`}>
+        <div className="mobileNavbar"> 
+        <br /><br />
+            <div className="flex p-1.5 border-2 items-center justify-center bg-cyan-950">
+                <div id='MyHeight' className={`max-w-[1200px] w-full fixed bottom-0 z-[1000] flex justify-around items-center log shadow-[0px_-2px_10px_rgba(0,0,0,0.1)] transition-all duration-300 ${isMenuOpen ? 'h-[13rem]' : 'h-[6rem]'} rounded-t-[10%]`}>
                     <div className="absolute z-10 bottom-5 left-5 flex items-center text-white">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
@@ -27,18 +28,18 @@ const MobileNav = () => {
                     </div>
 
                     {/* Expanding Circle Effect */}
-                    <div className={`absolute bottom-5 left-1/2 transform -translate-x-1/2 bgblue300 rounded-full bg-blue-300 transition-all duration-500 ${isMenuOpen ? 'w-[300px] h-[300px] bottom-[-120px] opacity-100' : 'w-[60px] h-[60px] opacity-0'}`}></div>
+                    <div className={`absolute bottom-5 left-1/2 transform -translate-x-1/2 bgblue300 rounded-full  transition-all duration-500 ${isMenuOpen ? 'w-[300px] h-[300px] bottom-[-120px] opacity-100' : 'w-[60px] h-[60px] opacity-0'}`}></div>
 
                     {/* Menu Items */}
                     <div className={`absolute bottom-[100px] left-1/2 transform -translate-x-1/2 flex gap-5 transition-all duration-300 ${isMenuOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}>
                         <div className="w-[60px] h-[60px] flex items-center justify-center bg-gray-700 rounded-full">
-                            <img src="/" alt="" className="invert" />
+                            <img src="/" alt="logo" className="invert" />
                         </div>
                         <div className="w-[60px] h-[60px] flex items-center justify-center bg-gray-700 rounded-full">
-                            <img src="/" alt="" className="invert" />
+                            <img src="/" alt="logo" className="invert" />
                         </div>
                         <div className="w-[60px] h-[60px] flex items-center justify-center bg-gray-700 rounded-full">
-                            <img src="/" alt="" className="invert" />
+                            <img src="/" alt="logo" className="invert" />
                         </div>
                     </div>
 
